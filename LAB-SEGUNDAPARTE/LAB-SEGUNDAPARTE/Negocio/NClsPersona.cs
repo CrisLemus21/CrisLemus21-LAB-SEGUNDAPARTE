@@ -10,7 +10,7 @@ namespace LAB_SEGUNDAPARTE.Negocio
     class NClsPersona
 
     {
-        ClsPersona per = new ClsPersona(0,0);
+        ClsPersona per = new ClsPersona();
         public string calcularIMC()
         {
             

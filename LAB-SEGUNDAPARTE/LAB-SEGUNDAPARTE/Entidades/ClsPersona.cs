@@ -42,6 +42,10 @@ namespace LAB_SEGUNDAPARTE.Entidades
             this.altura = altura;
         }
 
+        public ClsPersona()
+        {
+        }
+
         public override string ToString()
         {
             return nombre + " " + edad + " " + sexo + " " + peso + " " + altura;
