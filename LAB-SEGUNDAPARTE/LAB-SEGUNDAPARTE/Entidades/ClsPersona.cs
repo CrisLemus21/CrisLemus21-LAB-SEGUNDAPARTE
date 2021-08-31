@@ -48,7 +48,7 @@ namespace LAB_SEGUNDAPARTE.Entidades
 
         public override string ToString()
         {
-            return nombre + " " + edad + " " + sexo + " " + peso + " " + altura;
+            return "Su nombre es: "+ nombre + " tiene: " + edad + " años, su genero es: " + sexo + " pesa: " + peso + " libras, mide " + altura + " metros";
         }
     }
 }
